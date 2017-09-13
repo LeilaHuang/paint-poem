@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="Paintoem.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Paintoem"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image x:Name="image" HorizontalAlignment="Left" Height="630" Margin="412,221,0,0" 
+               VerticalAlignment="Top" Width="632" Source="image/swan/1/swanPart1_A.png" 
+               PointerMoved="image_PointerMoved"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="91,281,0,0" TextWrapping="Wrap"
+                 Text="TextBox" VerticalAlignment="Top" Height="51" Width="180" FontSize="30" />
+
+    </Grid>
+
+
+</Page>
